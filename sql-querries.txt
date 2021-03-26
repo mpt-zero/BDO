@@ -1,0 +1,19 @@
+1)
+Select Role, Max(Salary) as MaxSalary from  Employees
+Group BY Role
+
+
+2)
+Select Name,Surname,Role, Max(Salary) as MaxSalary from  Employees
+Group BY Role
+
+3)
+SELECT Role,SUM(salary) FROM `employees` WHERE salary BETWEEN 300 and 600
+GROUP BY role
+HAVING SUM(salary)
+
+4)სამწუხაროდ მეორე ცხრილში ვერ გავერკვიე როგორ უნდა ამეწყო რაღაც კითხვები მაქვს
+და არიძლეოდა ეს ფორმატი კითხვის დასმის საშუალებას.უბრალოდ ვერ მივხვდი ცხრილის სტრუქტრურა
+როგორ უნდა ჩამომეყალიბებინა,რადგაც სხვადასხვა სვეტები იყო მოცემული საბოლოო ცხრილში
+და იმ ცხრილში რაც სწორი პასუხის შემთხვევაში უნდა მიგვეღო
+
